@@ -10,6 +10,8 @@ Refer to the following link for more information in the documentation.
 [virtual scroll](https://ej2.syncfusion.com/react/documentation/grid/scrolling/virtual-scrolling) <br/>
 [Infinite scroll](https://ej2.syncfusion.com/react/documentation/grid/scrolling/infinite-scrolling)
 
+![Image](./react_grid_remote_gif.gif)
+
 Use the following command to run the sample
 ``` bash
 # install dependencies
