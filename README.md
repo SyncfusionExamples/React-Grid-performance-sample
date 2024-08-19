@@ -1,2 +1,10 @@
 # React-Grid-performance-sample
-Sample
+Use the following command to run the sample
+``` bash
+# install dependencies
+npm install
+
+# run the application
+npm start
+
+```
