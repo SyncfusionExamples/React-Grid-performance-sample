@@ -12,6 +12,7 @@ Refer to the following link for more information in the documentation.
 
 ![Image](./react_grid_remote_gif.gif)
 
+## Run 
 Use the following command to run the sample
 ``` bash
 # install dependencies
