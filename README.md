@@ -1,24 +1,59 @@
 # React-Grid-performance-sample
 
-In this demo, the grid is configured to bind 100,000 records across 5 columns. This sample is designed to evaluate performance during the initial rendering of the grid and various data operations, including sorting, filtering, searching, grouping, and paging with different page sizes. You can assess performance by adjusting the page size via the pageSize value in the [pageSettings](https://ej2.syncfusion.com/react/documentation/api/grid/pageSettings/#pagesize) property at the sample level. Additionally, you have the option to enable virtual scrolling by setting [enableVirtualization](https://ej2.syncfusion.com/react/documentation/api/grid/#enablevirtualization), or you can choose to test with pagination by enabling the [allowPaging](https://ej2.syncfusion.com/react/documentation/api/grid/#allowpaging) feature. If you prefer to explore infinite scrolling, you can activate the [enableInfiniteScrolling](https://ej2.syncfusion.com/react/documentation/api/grid/#enableinfinitescrolling) feature at the sample level.
+## Repository Description
+This repository contains a React-based performance demonstration showcasing how a data grid behaves when rendering and operating on large datasets using different scrolling and paging strategies.
 
-> Note: Paging, Virtual Scrolling, and Infinite Scrolling are unique features, meaning only one of these can be enabled at a time.
+## Project Overview
+This project is a performance testing sample for a React Grid component configured to handle large-scale data efficiently. In this demo, the grid is bound to 100,000 records across five columns. The primary goal of the sample is to evaluate how the grid performs during initial rendering and while executing common data operations such as sorting, filtering, searching, grouping, and paging.
 
-Refer to the following link for more information in the documentation.
+The sample allows developers to experiment with multiple data navigation techniques to understand their impact on rendering speed and user experience. These techniques are useful when building enterprise-grade applications that must handle high data volumes smoothly.
 
-[Paging](https://ej2.syncfusion.com/react/documentation/grid/paging) <br/>
-[virtual scroll](https://ej2.syncfusion.com/react/documentation/grid/scrolling/virtual-scrolling) <br/>
-[Infinite scroll](https://ej2.syncfusion.com/react/documentation/grid/scrolling/infinite-scrolling)
+## Key Features
+- Binds and renders 100,000 data records
+- Supports sorting, filtering, searching, and grouping operations
+- Allows testing with configurable page sizes
+- Supports paging, virtual scrolling, and infinite scrolling modes
+- Helps compare performance between different data loading strategies
 
-![Image](./react_grid_remote_gif.gif)
+> **Note:** Paging, Virtual Scrolling, and Infinite Scrolling are mutually exclusive features, and only one can be enabled at a time.
 
-## Run 
-Use the following command to run the sample
-``` bash
-# install dependencies
-npm install
+## Configuration Options
+You can control grid behavior using the following properties:
+- `pageSettings.pageSize` to adjust the number of records per page
+- `allowPaging` to enable pagination
+- `enableVirtualization` to activate virtual scrolling
+- `enableInfiniteScrolling` to test infinite scrolling behavior
 
-# run the application
-npm start
+These options can be modified at the sample level to observe performance differences.
 
+
+## Running the Application
+
+1. Clone the repository:
+
+```cmd
+git https://github.com/SyncfusionExamples/React-Grid-performance-sample.git
 ```
+
+2. Navigate to the project folder:
+
+```cmd
+cd your-application-root-folder
+```
+
+3. Install dependencies:
+
+```cmd
+npm install
+```
+
+3. Start the development server:
+
+```cmd
+npm run serve
+```
+
+## Resources
+
+- Documentation: https://ej2.syncfusion.com/react/documentation/grid/performance
+- Demo: https://ej2.syncfusion.com/react/demos/#/tailwind3/grid/overview
